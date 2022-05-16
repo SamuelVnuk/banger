@@ -21,9 +21,9 @@ include('../parts/header.php');
       <img src="../images/<?php  echo $avatar;?>"  style="width: 200px">
       <p><select name="avatar"style="margin-top: 30px;" class="form-select form-select-lg form-select-border-width-2" aria-label=".form-select-lg example">
           <option disabled selected>Vyberte avatara</option>
-          <option value="jeden.png">User1</option>
-          <option value="dva.png">User2</option>
-          <option value="tri.png">User3</option>
+          <option value="jeden.png">Avatar 1</option>
+          <option value="dva.png">Avatar 2</option>
+          <option value="tri.png">Avatar 3</option>
         </select>
       <p><button type="submit" class="btn btn-outline-secondary">Zmenit</button>
       <p class="text-danger"><?php echo $message ?></p>

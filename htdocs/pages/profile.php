@@ -16,7 +16,7 @@ include('../scripts/profile_script.php');
                 <div class="col-4"><img src="../images/<?php echo $user["avatar"] ?>" alt="<?php echo $user["username"] ?>" style="width: 300px;">
                     <?php if (isset($_SESSION["username"])) :
                         if ($_SESSION["username"] == $user["username"]) :?>
-                            <a href="../pages/avatar_change.php" class="btn btn-info" style="margin-left: 70px; margin-top: 20px;">Zmenit avatara</a>
+                            <a href="../pages/avatar_change.php" class="btn btn-info" style="margin-left: 70px; margin-top: 20px;">Change avatar</a>
                     <?php endif;
                     endif; ?>
                 </div>
